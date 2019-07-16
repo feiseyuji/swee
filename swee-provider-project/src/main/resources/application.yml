@@ -1,0 +1,12 @@
+server:
+   port: 8672
+
+spring:
+  application:
+    name: swee-provider
+eureka:
+   instance:
+     hostname: localhost
+   client:
+     serviceUrl:
+       defaultZone: http://localhost:8671/eureka/ 

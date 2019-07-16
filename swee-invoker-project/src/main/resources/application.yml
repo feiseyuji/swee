@@ -1,0 +1,12 @@
+server:
+   port: 8673
+
+spring:
+  application:
+    name: swee-invoker
+eureka:
+   instance:
+     hostname: localhost
+   client:
+     serviceUrl:
+       defaultZone: http://localhost:8671/eureka/ 
